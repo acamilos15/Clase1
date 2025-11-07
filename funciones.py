@@ -6,3 +6,7 @@ def par(n):
 
 def impar(m):
     return m%2==1 
+
+def palindromo(palabra):
+    palabra = palabra.lower().replace(" ", "")
+    return palabra == palabra[::-1]
