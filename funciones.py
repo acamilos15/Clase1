@@ -3,3 +3,6 @@ def saludar(s):
 
 def par(n):
     return n%2==0
+
+def impar(m):
+    return m%2==1 
